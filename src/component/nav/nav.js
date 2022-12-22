@@ -32,7 +32,7 @@ const Nav = ()=> {
               <div>chesschampion@lenta.ru</div>
             </div>
             <div className='flex justify-center w-70  align-middle items-center  lg:pl-45 mb:pl-1 static'>
-              {state.basket.length? <div className=" bg-yellow text-white rounded-full  w-34 h-34 text-center absolute right-12 top-12">{basketPreCount}</div>: null}
+              {state.basket.length? <div className=" bg-yellow text-white lg:text-base md:text-base mb:text-xs rounded-full  lg:w-34 lg:h-34  md:w-34 md:h-34 mb:w-4 mb:h-4 text-center absolute lg:right-12  mb:right-8 md:right-20  lg:top-12  md:top-12 mb:top-9 ">{basketPreCount}</div>: null}
             <button>
                 <span onClick={() => setShowModal(true)}
                  className=''>
